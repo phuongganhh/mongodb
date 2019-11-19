@@ -1,0 +1,53 @@
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\Employee.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\bin\Debug\Employee.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CopyComplete
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.pdb
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.dll
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.pdb
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\Employee.dll
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\EmployeeRepository\bin\Debug\Employee.pdb
+D:\website\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CopyComplete
+D:\website\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.dll
+D:\website\QuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Employee.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Employee.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\obj\Debug\EmployeeRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\EmployeeRepository.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Employee.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Crc32C.NET.xml

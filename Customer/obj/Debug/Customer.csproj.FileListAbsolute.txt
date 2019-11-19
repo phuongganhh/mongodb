@@ -1,0 +1,17 @@
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\bin\Debug\Customer.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\bin\Debug\Customer.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\obj\Debug\Customer.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\obj\Debug\Customer.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Customer\obj\Debug\Customer.pdb
+D:\website\QuanLyBanHang\Customer\bin\Debug\Customer.dll
+D:\website\QuanLyBanHang\Customer\bin\Debug\Customer.pdb
+D:\website\QuanLyBanHang\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\Customer\obj\Debug\Customer.dll
+D:\website\QuanLyBanHang\Customer\obj\Debug\Customer.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\bin\Debug\Customer.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\bin\Debug\Customer.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\obj\Debug\Customer.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\obj\Debug\Customer.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Customer\obj\Debug\Customer.pdb

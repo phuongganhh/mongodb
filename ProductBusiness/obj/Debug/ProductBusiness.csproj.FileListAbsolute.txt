@@ -1,0 +1,46 @@
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ProductBusiness.dll
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ProductBusiness.pdb
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\Product.dll
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ProductRepository.dll
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\ProductRepository.pdb
+D:\website\QuanLyBanHang\ProductBusiness\bin\Debug\Product.pdb
+D:\website\QuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csproj.CopyComplete
+D:\website\QuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.dll
+D:\website\QuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductBusiness.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Product.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Product.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\obj\Debug\ProductBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductBusiness.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\ProductRepository.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Crc32C.NET.xml

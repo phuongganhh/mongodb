@@ -1,0 +1,60 @@
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CopyComplete
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.pdb
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.pdb
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.dll
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.pdb
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.pdb
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CopyComplete
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.dll
+D:\website\QuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Employee.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Crc32C.NET.xml

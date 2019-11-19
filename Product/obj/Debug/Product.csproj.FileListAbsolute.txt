@@ -1,0 +1,17 @@
+E:\website\QuanLyBanHang\Product\bin\Debug\Product.dll
+E:\website\QuanLyBanHang\Product\bin\Debug\Product.pdb
+E:\website\QuanLyBanHang\Product\obj\Debug\Product.csproj.CoreCompileInputs.cache
+E:\website\QuanLyBanHang\Product\obj\Debug\Product.dll
+E:\website\QuanLyBanHang\Product\obj\Debug\Product.pdb
+D:\website\QuanLyBanHang\Product\bin\Debug\Product.dll
+D:\website\QuanLyBanHang\Product\bin\Debug\Product.pdb
+D:\website\QuanLyBanHang\Product\obj\Debug\Product.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\Product\obj\Debug\Product.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\Product\obj\Debug\Product.dll
+D:\website\QuanLyBanHang\Product\obj\Debug\Product.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\bin\Debug\Product.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\bin\Debug\Product.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\obj\Debug\Product.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\obj\Debug\Product.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\obj\Debug\Product.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Product\obj\Debug\Product.pdb

@@ -1,0 +1,53 @@
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\Login.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\Login.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\ConnectDataBase.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\ConnectDataBase.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\obj\Debug\LoginRepository.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CopyComplete
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\obj\Debug\Login.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\obj\Debug\Login.pdb
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\User.dll
+C:\Users\Nguyen Hoang Duy\source\repos\QuanLyBanHang\Login\bin\Debug\User.pdb
+D:\website\QuanLyBanHang\Login\bin\Debug\Login.dll
+D:\website\QuanLyBanHang\Login\bin\Debug\Login.pdb
+D:\website\QuanLyBanHang\Login\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\Login\bin\Debug\User.dll
+D:\website\QuanLyBanHang\Login\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\Login\bin\Debug\User.pdb
+D:\website\QuanLyBanHang\Login\obj\Debug\LoginRepository.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CopyComplete
+D:\website\QuanLyBanHang\Login\obj\Debug\Login.dll
+D:\website\QuanLyBanHang\Login\obj\Debug\Login.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Login.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Login.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\User.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\User.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\obj\Debug\LoginRepository.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\obj\Debug\LoginRepository.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\obj\Debug\Login.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\obj\Debug\Login.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Login.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\User.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Crc32C.NET.xml

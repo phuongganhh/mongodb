@@ -1,0 +1,41 @@
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\ProductRepository.dll
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\ProductRepository.pdb
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\Product.dll
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\ProductRepository\bin\Debug\Product.pdb
+D:\website\QuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csproj.CopyComplete
+D:\website\QuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.dll
+D:\website\QuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ProductRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ProductRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Product.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Product.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csprojAssemblyReference.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\obj\Debug\ProductRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ProductRepository.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Crc32C.NET.xml

@@ -1,0 +1,36 @@
+D:\website\QuanLyBanHang\VenderRepository\bin\Debug\VenderRepository.dll
+D:\website\QuanLyBanHang\VenderRepository\bin\Debug\VenderRepository.pdb
+D:\website\QuanLyBanHang\VenderRepository\bin\Debug\ConnectDataBase.dll
+D:\website\QuanLyBanHang\VenderRepository\bin\Debug\ConnectDataBase.pdb
+D:\website\QuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.csprojAssemblyReference.cache
+D:\website\QuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.csproj.CoreCompileInputs.cache
+D:\website\QuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.csproj.CopyComplete
+D:\website\QuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.dll
+D:\website\QuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\VenderRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\VenderRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\ConnectDataBase.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\ConnectDataBase.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.csproj.CopyComplete
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\obj\Debug\VenderRepository.pdb
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\VenderRepository.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Driver.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Bson.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\DnsClient.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\SharpCompress.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Snappy.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Crc32C.NET.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\netstandard.dll
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Driver.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\MongoDB.Bson.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\DnsClient.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Snappy.NET.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Crc32C.NET.xml
