@@ -37,7 +37,7 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="CustomerId">Mã nhà cung cấp:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="CustomerId" value="@ViewBag.Result[0].CustomerId" disabled id="CustomerId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="CustomerId" value="@ViewBag.Result[0]._id" disabled id="CustomerId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-                                    <input type="button" onclick="onBtnSave(@ViewBag.Result[0].CustomerId);" class="btn btn-primary" value="Xác nhận">
+                                    <input type="button" onclick="onBtnSave('@ViewBag.Result[0]._id');" class="btn btn-primary" value="Xác nhận">
                                     <button type="button" onclick="window.close();" class="btn">Hủy bỏ</button>
                                 </div>
                             </div>

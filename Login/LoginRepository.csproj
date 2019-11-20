@@ -30,6 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Driver, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="MongoDB.Driver.Core, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,10 +52,6 @@
     <ProjectReference Include="..\ConnectDataBase\ConnectDataBase.csproj">
       <Project>{fe0ec3d0-443e-4e28-80de-fe771e75a5ec}</Project>
       <Name>ConnectDataBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\User\User.csproj">
-      <Project>{d8661653-7a7e-479a-b085-d473a5a7055b}</Project>
-      <Name>User</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

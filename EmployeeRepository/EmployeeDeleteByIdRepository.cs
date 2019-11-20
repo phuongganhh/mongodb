@@ -1,4 +1,7 @@
 ﻿using ConnectDataBase;
+using Domain;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +10,15 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class EmployeeDeleteByIdRepository : Connection
+    public class EmployeeDeleteByIdRepository : MongodbService
     {
-        public int EmployeeId { get; set; }
+        public string EmployeeId { get; set; }
         public bool Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "DELETE FROM [Employee] WHERE [Employee].EmployeeId=" + EmployeeId;
-                return cmd.ExecuteQueryNonReader();
-            }
+            var collection = this.GetCollection<BsonDocument>("Employee");
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.EmployeeId.ToObjectId());
+            var result = collection.DeleteOne(filter);
+            return result.DeletedCount > 0;
         }
     }
 }

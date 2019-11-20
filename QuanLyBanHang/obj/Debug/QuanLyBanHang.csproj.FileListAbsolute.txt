@@ -508,3 +508,10 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\QuanLyBanHang\bin\Sna
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\QuanLyBanHang\bin\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\QuanLyBanHang\bin\Crc32C.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\QuanLyBanHang\bin\SaleBusiness.dll.config
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\mongodb\QuanLyBanHang\bin\roslyn\VBCSCompiler.exe

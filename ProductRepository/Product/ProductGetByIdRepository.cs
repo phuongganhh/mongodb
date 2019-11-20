@@ -1,4 +1,7 @@
 ﻿using ConnectDataBase;
+using Domain;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +10,13 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class ProductGetByIdRepository : Connection
+    public class ProductGetByIdRepository : MongodbService
     {
-        public int ProductId { get; set; }
-        public List<dynamic> Execute()
+        public string ProductId { get; set; }
+        public List<Product> Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "SELECT [Product].*,[ProductGroup].ProductGroupName FROM [Product] LEFT JOIN [ProductGroup] on [ProductGroup].ProductGroupId = [Product].ProductGroupId WHERE [Product].ProductId = " + this.ProductId;
-                return cmd.ExecuteQuery();
-            }
+            var collection = this.GetCollection<Product>("Product");
+            return collection.Find(x => x._id == ObjectId.Parse(this.ProductId)).ToList();
         }
     }
 }

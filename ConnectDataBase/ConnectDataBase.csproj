@@ -75,8 +75,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="DatabaseCollection.cs" />
+    <Compile Include="Entity\Base.cs" />
+    <Compile Include="Entity\Customer.cs" />
+    <Compile Include="Entity\Employee.cs" />
+    <Compile Include="Entity\OAuth.cs" />
+    <Compile Include="Entity\Product.cs" />
+    <Compile Include="Entity\ProductGroup.cs" />
+    <Compile Include="Entity\Sale.cs" />
+    <Compile Include="Entity\SaleItem.cs" />
+    <Compile Include="Entity\User.cs" />
     <Compile Include="MongodbService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Query.cs" />

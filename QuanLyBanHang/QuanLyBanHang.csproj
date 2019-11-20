@@ -941,10 +941,6 @@
       <Project>{b5ae7dc9-b209-4063-b67c-c48103973c94}</Project>
       <Name>CustomerRepository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Customer\Customer.csproj">
-      <Project>{66de8e97-1d67-4cc8-b378-02e02871f2cf}</Project>
-      <Name>Customer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EmployeeExecuteSaveBusiness\EmployeeBusiness.csproj">
       <Project>{7b7fd7ca-6855-4b40-a4c1-2c94e592d147}</Project>
       <Name>EmployeeBusiness</Name>
@@ -952,10 +948,6 @@
     <ProjectReference Include="..\EmployeeRepository\EmployeeRepository.csproj">
       <Project>{2ae65dcf-8ad6-47f7-827c-5259ad06f8b7}</Project>
       <Name>EmployeeRepository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Employee\Employee.csproj">
-      <Project>{6ff1176b-86ac-461c-bb69-f8b95d255d71}</Project>
-      <Name>Employee</Name>
     </ProjectReference>
     <ProjectReference Include="..\Login\LoginRepository.csproj">
       <Project>{21cf07c0-3ada-4e00-a9f2-9ee819293910}</Project>
@@ -969,10 +961,6 @@
       <Project>{4e22e500-cab8-4d86-8581-ee272670316e}</Project>
       <Name>ProductRepository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Product\Product.csproj">
-      <Project>{bdfa344a-0e51-48b8-8b6c-b0a59c2f5cbf}</Project>
-      <Name>Product</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SaleBusiness\SaleBusiness.csproj">
       <Project>{b64cc8ae-b284-487e-825f-1c92e220c550}</Project>
       <Name>SaleBusiness</Name>
@@ -980,14 +968,6 @@
     <ProjectReference Include="..\SaleRepository\SaleRepository.csproj">
       <Project>{e9c6a8c3-702b-46e4-91d5-d24024e0513d}</Project>
       <Name>SaleRepository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sale\Sale.csproj">
-      <Project>{6894cbcd-94cf-4b92-97d7-3be13976c40d}</Project>
-      <Name>Sale</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\User\User.csproj">
-      <Project>{d8661653-7a7e-479a-b085-d473a5a7055b}</Project>
-      <Name>User</Name>
     </ProjectReference>
     <ProjectReference Include="..\VenderRepository\VenderRepository.csproj">
       <Project>{aa50b636-0e72-4465-b804-4d27fedfac8a}</Project>

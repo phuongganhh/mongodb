@@ -15,7 +15,7 @@ namespace Repository
         {
             using(var cmd = new Query())
             {
-                cmd.QueryString = "UPDATE [dbo].[Product] SET [ProductName] = N'" + Item.ProductName + "' ,[Price] = " + Item.Price + " ,[Barcode] = '" + Item.Barcode + "' ,[Qty] = " + Item.Qty + ",[ProductGroupId] = "+Item.ProductGroupId+" WHERE [Product].ProductId = " + Item.ProductId;
+                //cmd.QueryString = "UPDATE [dbo].[Product] SET [ProductName] = N'" + Item.ProductName + "' ,[Price] = " + Item.Price + " ,[Barcode] = '" + Item.Barcode + "' ,[Qty] = " + Item.Qty + ",[ProductGroupId] = "+Item.ProductGroupId+" WHERE [Product].ProductId = " + Item.ProductId;
                 return cmd.ExecuteQueryNonReader();
             }
         }

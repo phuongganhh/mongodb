@@ -1,5 +1,6 @@
 ﻿using ConnectDataBase;
 using Domain;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,16 +9,17 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class ProductGroupInsertRepository : Connection
+    public class ProductGroupInsertRepository : MongodbService
     {
         public ProductGroup Item { get; set; }
         public bool Execute()
         {
-            using(var cmd = new Query())
+            if(this.Item != null)
             {
-                cmd.QueryString = "INSERT INTO [dbo].[ProductGroup]([ProductGroupId] ,[ProductId] ,[ProductGroupName] ,[Remark]) VALUES ((SELECT isnull(MAX(ProductGroupId),0) + 1 from [ProductGroup])," + 1 + ",N'" + Item.ProductGroupName + "','" + Item.Remark + "')";
-                return cmd.ExecuteQueryNonReader();
+                this.GetCollection<ProductGroup>("ProductGroup").InsertOne(this.Item);
+                return this.Item._id != ObjectId.Empty;
             }
+            return false;
         }
     }
 }

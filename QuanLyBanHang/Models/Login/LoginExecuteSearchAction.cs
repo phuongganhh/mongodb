@@ -27,7 +27,7 @@ namespace QuanLyBanHang.Models
                 return sb.ToString();
             }
         }
-        public List<dynamic> Execute()
+        public List<Domain.User> Execute()
         {
             using(var cmd = new LoginGetByIdRepository())
             {

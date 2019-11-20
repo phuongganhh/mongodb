@@ -1,4 +1,5 @@
 ﻿using ConnectDataBase;
+using Domain;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,8 @@ namespace QuanLyBanHang.Models
 {
     public class ProductGetByIdAction
     {
-        public int ProductId { get; set; }
-        public List<dynamic> Execute()
+        public string ProductId { get; set; }
+        public List<Product> Execute()
         {
             using(var cmd = new ProductGetByIdRepository())
             {

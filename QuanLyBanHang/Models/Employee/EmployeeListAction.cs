@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Models
 {
     public class EmployeeListAction
     {
-        public List<dynamic> Execute()
+        public List<Domain.Employee> Execute()
         {
             using(var cmd = new EmployeeSearchRepository())
             {

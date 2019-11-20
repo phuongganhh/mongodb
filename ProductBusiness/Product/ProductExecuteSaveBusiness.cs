@@ -11,7 +11,7 @@ namespace Business
     public class ProductExecuteSaveBusiness : Connection
     {
         public string EditFlag { get; set; }
-        public Product Item { get; set; }
+        public ProductDTO Item { get; set; }
         public bool Execute()
         {
             if(this.EditFlag == "M")

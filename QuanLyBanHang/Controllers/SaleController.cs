@@ -17,18 +17,7 @@ namespace QuanLyBanHang.Controllers
         public ActionResult SaleList(SaleListAction CommandAction)
         {
             var result = CommandAction.Execute();
-            foreach (var item in result)
-            {
-                if(item.Status != 1)
-                {
-                    item.StatusShow = "Chưa xử lý";
-                }
-                else
-                {
-                    item.StatusShow = "Đã hoàn thành";
-                }
-                item.SaleDate = Convert.ToDateTime(item.SaleDate).ToString("yyyy-MM-dd");
-            }
+
             this.ViewBag.Result = result;
             return View();
         }
@@ -36,7 +25,7 @@ namespace QuanLyBanHang.Controllers
         {
             var result = CommandAction.Execute();
             this.ViewBag.Result = result;
-            this.ViewBag.ResultJson = JsonExpando(Success(result));
+            this.ViewBag.ResultJson = this.JsonExpando(Success(result));
             return View();
         }
 

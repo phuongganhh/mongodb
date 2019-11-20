@@ -1,4 +1,6 @@
 ﻿using ConnectDataBase;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +9,17 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class SaleChangeStatusRepository : Connection
+    public class SaleChangeStatusRepository : MongodbService
     {
-        public int SaleId { get; set; }
+        public string SaleId { get; set; }
         public bool Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "UPDATE [dbo].[Sale] SET [Status] = 1 WHERE [Sale].SaleId=" + this.SaleId;
-                return cmd.ExecuteQueryNonReader();
-            }
+            var collection = this.GetCollection<BsonDocument>("Sale");
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.SaleId);
+            var update = Builders<BsonDocument>.Update.Set("Status", 1);
+            var result = collection.UpdateOne(filter, update);
+            return result.ModifiedCount > 0;
+
         }
     }
 }

@@ -7,8 +7,8 @@ namespace QuanLyBanHang.Models
 {
     public class EmployeeInputAction
     {
-        public int EmployeeId { get; set; }
-        public List<dynamic> Execute()
+        public string EmployeeId { get; set; }
+        public List<Domain.Employee> Execute()
         {
             using(var cmd = new EmployeeGetByIdRepository())
             {

@@ -8,15 +8,19 @@ using System.Threading.Tasks;
 
 namespace CustomerRepository
 {
-    public class CustomerInsertRepository : Connection
+    public class CustomerInsertRepository : MongodbService
     {
         public Customer Item { get; set; }
         public bool Execute()
         {
-            using(var cmd = new Query())
+            try
             {
-                cmd.QueryString = " INSERT INTO [dbo].[Customer]([CustomerId] ,[Phone] ,[Email] ,[isVender] ,[isCustomer] ,[WriteDate] ,[EditDate] ,[WriterId] ,[EditorId] ,[CustomerName]) VALUES ((SELECT isnull(MAX(CustomerId),0) + 1 from Customer),'" + Item.Phone + "','" + Item.Email + "','" + Item.isVender + "','" + Item.isCustomer+ "','','','','',N'"+ Item.CustomerName+"')";
-                return cmd.ExecuteQueryNonReader(); ;
+                this.InsertOne(this.Item);
+                return this.Item._id != null;
+            }
+            catch (Exception)
+            {
+                return false;
             }
         }
     }

@@ -5,6 +5,7 @@
 }
 @if(this.ViewBag.Result.Count == 1)
 {
+    Domain.Sale sale = this.ViewBag.Result[0];
     <div id="main-content">
         <!-- BEGIN Page Title -->
         <div class="page-title">
@@ -31,16 +32,16 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="SaleId">Mã:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="SaleId" value="@this.ViewBag.Result[0].SaleId" disabled id="SaleId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="SaleId" value="@sale._id" disabled id="SaleId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label">Tên khách hàng:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
                                     <div class="input-group">
-                                        <span class="input-group-addon" id="CustomerId_span">@this.ViewBag.Result[0].CustomerId</span>
-                                        <input type="hidden" id="CustomerId" name="CustomerId" value="@this.ViewBag.Result[0].CustomerId" />
-                                        <input type="text" name="CustomerName" id="CustomerName" value="@this.ViewBag.Result[0].CustomerName" placeholder="Search here..." class="form-control">
+                                        <span class="input-group-addon" id="CustomerId_span">@sale.Customer._id</span>
+                                        <input type="hidden" id="CustomerId" name="CustomerId" value="@sale.Customer._id" />
+                                        <input type="text" name="CustomerName" id="CustomerName" value="@sale.Customer.CustomerName" placeholder="Search here..." class="form-control">
                                         <span class="input-group-btn">
                                             <button class="btn btn-yellow" onclick="btnSearchCustomer();" type="button">Tìm kiếm!</button>
                                         </span>
@@ -51,9 +52,9 @@
                                 <label class="col-sm-3 col-lg-2 control-label">Tên nhân viên:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
                                     <div class="input-group">
-                                        <span class="input-group-addon" id="EmployeeId_span">@this.ViewBag.Result[0].EmployeeId</span>
-                                        <input type="hidden" id="EmployeeId" name="EmployeeId" value="@this.ViewBag.Result[0].EmployeeId" />
-                                        <input type="text" name="EmployeeName" id="EmployeeName" value="@this.ViewBag.Result[0].EmployeeName" placeholder="Search here..." class="form-control">
+                                        <span class="input-group-addon" id="EmployeeId_span">@sale.Employee._id</span>
+                                        <input type="hidden" id="EmployeeId" name="EmployeeId" value="@sale.Employee._id" />
+                                        <input type="text" name="EmployeeName" id="EmployeeName" value="@sale.Employee.EmployeeName" placeholder="Search here..." class="form-control">
                                         <span class="input-group-btn">
                                             <button class="btn btn-yellow" onclick="btnSearchEmployee();" type="button">Tìm kiếm!</button>
                                         </span>
@@ -63,21 +64,21 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label">Ngày</label>
                                 <div class="col-sm-5 col-lg-3 controls">
-                                    <div class="input-group date date-picker" data-date="@Convert.ToDateTime(this.ViewBag.Result[0].SaleDate).ToString("yyyy-MM-dd")" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                    <div class="input-group date date-picker" data-date="@Convert.ToDateTime(sale.SaleDate).ToString("yyyy-MM-dd")" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                                        <input name="SaleDate" class="form-control date-picker" size="16" type="text" value="@Convert.ToDateTime(this.ViewBag.Result[0].SaleDate).ToString("yyyy-MM-dd")">
+                                        <input name="SaleDate" class="form-control date-picker" size="16" type="text" value="@Convert.ToDateTime(sale.SaleDate).ToString("yyyy-MM-dd")">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="textarea1" class="col-xs-3 col-lg-2 control-label">Ghi chú</label>
                                 <div class="col-sm-9 col-lg-10 controls">
-                                    <textarea name="Note" id="Note" rows="5" class="form-control">@this.ViewBag.Result[0].Note</textarea>
+                                    <textarea name="Note" id="Note" rows="5" class="form-control">@sale.Note</textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-                                    <input type="button" onclick="onBtnSave(@this.ViewBag.Result[0].SaleId);" class="btn btn-primary" value="Xác nhận">
+                                    <input type="button" onclick="onBtnSave('@sale._id');" class="btn btn-primary" value="Xác nhận">
                                     <button type="button" onclick="window.close();" class="btn">Hủy bỏ</button>
                                 </div>
                             </div>

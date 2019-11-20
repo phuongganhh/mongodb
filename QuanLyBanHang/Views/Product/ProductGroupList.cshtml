@@ -49,18 +49,18 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in this.ViewBag.Result)
+                                @foreach (Domain.ProductGroup item in this.ViewBag.Result)
                                 {
                                     <tr class="table-flag-blue">
-                                        <td>@item.ProductGroupId</td>
+                                        <td>@item._id</td>
                                         <td>@item.ProductGroupName</td>
                                         <td>@item.Remark</td>
                                         <td>
-                                            <a title="Sửa" href="#" onclick="btnEdit(@item.ProductGroupId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
-                                            <a title="Xóa" href="#" onclick="btnDelete(@item.ProductGroupId); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
+                                            <a title="Sửa" href="#" onclick="btnEdit('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
+                                            <a title="Xóa" href="#" onclick="btnDelete('@item._id'); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
                                             @if (this.ViewBag.isPopup)
                                             {
-                                                <a title="Chọn" href="#" onclick="window.opener.AddData(@item.ProductGroupId,'@item.ProductGroupName'); window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
+                                                <a title="Chọn" href="#" onclick="window.opener.AddData('@item._id','@item.ProductGroupName'); window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
                                             }
                                         </td>
                                     </tr>

@@ -24,14 +24,14 @@ namespace QuanLyBanHang.Controllers
                 if (result.Count() == 1)
                 {
                     this.Session["Email"] = CommandAction.Username;
-                    this.Session["EmployeeName"] = result[0].EmployeeName;
+                    this.Session["EmployeeName"] = result[0].Employee?.EmployeeName;
                     this.Session["LastLogin"] = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
                     this.Session["Photo"] = "/img/demo/avatar/avatar1.jpg";
                 
                     this.Session.Timeout = 10;
                     using (var cmd = new LoginUpdateRepository())
                     {
-                        result[0].LastLogin = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                        result[0].LastLogin = DateTime.Now;
                         result[0].Token = this.Session.SessionID;
                         cmd.Item = result[0];
                         var res = cmd.Execute();

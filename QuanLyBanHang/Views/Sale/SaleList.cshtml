@@ -64,27 +64,37 @@
                             </thead>
                             <tbody>
                                 
-                                @foreach (var item in this.ViewBag.Result)
+                                @foreach (Domain.Sale item in this.ViewBag.Result)
                                 {
                                     
                                     <tr class="table-flag-blue">
-                                        <td>@item.SaleId</td>
+                                        <td>@item._id</td>
                                         <td>@Convert.ToDateTime(item.SaleDate).ToString("dd/MM/yyyy hh:mm:ss")</td>
                                         <td>
-                                            <a href="#" onclick="popupCustomerInput(@item.CustomerId);">@item.CustomerName</a>
+                                            <a href="#" onclick="popupCustomerInput('@item.Customer._id');">@item.Customer.CustomerName</a>
                                         </td>
                                         <td>
-                                            <a href="#" onclick="popupEmployeeInput(@item.EmployeeId);">@item.EmployeeName</a>
+                                            <a href="#" onclick="popupEmployeeInput(@item.Employee._id);">@item.Employee.EmployeeName</a>
                                         </td>
-                                        <td>@Convert.ToInt32(item.Qty).ToString("#,##0")</td>
-                                        <td>@Convert.ToInt32(item.Total).ToString("#,##0")</td>
-                                        <td>@item.StatusShow</td>
+                                        @{ 
+                                            var qty = 0;
+                                            var total = 0;
+                                            item.SaleItems?.ToList().ForEach(x =>
+                                            {
+                                                qty += x.Qty;
+                                                total += x.Qty * x.Product?.Price ?? 0;
+                                            });
+                                            var statusShow = item.Status != 1 ? "Chưa xử lý" : "Đã hoàn thành";
+                                        }
+                                        <td>@qty.ToString("#,##0")</td>
+                                        <td>@total.ToString("#,##0")</td>
+                                        <td>@statusShow</td>
                                         <td>@item.Note</td>
                                         <td>
-                                            <a title="Xem" href="#" onclick="btnView(@item.SaleId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-eye"></span></a>
-                                            <a title="Sửa" href="#" onclick="btnEdit(@item.SaleId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
-                                            <a title="Xóa" href="#" onclick="btnDelete(@item.SaleId); return false;" type="button" class="btn btn-gray btn-sm"><span class="fa fa-trash-o"></span></a>
-                                            <a title="Hoàn thành" href="#" onclick="changeStatus(@item.SaleId); return false;" type="button" class="btn btn-primary btn-sm"><span class="fa fa-check-square-o"></span></a>
+                                            <a title="Xem" href="#" onclick="btnView('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-eye"></span></a>
+                                            <a title="Sửa" href="#" onclick="btnEdit('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
+                                            <a title="Xóa" href="#" onclick="btnDelete('@item._id'); return false;" type="button" class="btn btn-gray btn-sm"><span class="fa fa-trash-o"></span></a>
+                                            <a title="Hoàn thành" href="#" onclick="changeStatus('@item._id'); return false;" type="button" class="btn btn-primary btn-sm"><span class="fa fa-check-square-o"></span></a>
                                         </td>
                                     </tr>
                                 }

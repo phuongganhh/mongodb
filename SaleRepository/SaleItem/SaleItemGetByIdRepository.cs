@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ConnectDataBase;
+using Domain;
+using MongoDB.Bson;
+using MongoDB.Driver;
+
 namespace Repository
 {
-    public class SaleItemGetByIdRepository : Connection
+    public class SaleItemGetByIdRepository : MongodbService
     {
-        public int SaleId { get; set; }
-        public List<dynamic> Execute()
+        public string SaleId { get; set; }
+        public List<SaleItem> Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "SELECT [SaleItem].*,[Product].ProductName,[Product].Price,([Product].Qty * [Product].Price) as Total FROM [SaleItem] LEFT JOIN [Product] on [Product].ProductId = [SaleItem].ProductId WHERE [SaleItem].SaleId = " + SaleId;
-                return cmd.ExecuteQuery();
-            }
+            var collection = this.GetCollection<Sale>("Sale");
+            var item = collection.Find(x => x._id == ObjectId.Parse(this.SaleId)).FirstOrDefault();
+            return item.SaleItems?.ToList() ?? new List<SaleItem>();
         }
     }
 }

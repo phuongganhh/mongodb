@@ -8,18 +8,16 @@ using System.Data.SqlClient;
 using Domain;
 using System.Data;
 using System.Dynamic;
+using MongoDB.Driver;
 
 namespace Repository
 {
-    public class CustomerSearchRepository : Connection
+    public class CustomerSearchRepository : MongodbService
     {
-        public List<dynamic> Execute()
+        public List<Domain.Customer> Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "SELECT * FROM [Customer] WHERE [Customer].isCustomer = 1";
-                return cmd.ExecuteQuery();
-            }
+            var collection = this.GetCollection<Domain.Customer>("Customer");
+            return collection.Find(x => x.isCustomer).ToList();
         }
     }
 }

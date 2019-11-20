@@ -1,5 +1,7 @@
 ﻿using ConnectDataBase;
 using Domain;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +12,30 @@ namespace Repository
 {
     public class SaleInsertRepository : MongodbService
     {
-        public Sale Item { get; set; }
+        public SaleDTO Item { get; set; }
+        private Employee GetEmployee(ObjectId id)
+        {
+            var collection = this.GetCollection<Employee>("Employee");
+            return collection.Find(x => x._id == id).FirstOrDefault();
+        }
+        private Customer GetCustomer(ObjectId id)
+        {
+            var collection = this.GetCollection<Customer>("Customer");
+            return collection.Find(x => x._id == id).FirstOrDefault();
+        }
         public bool Execute()
         {
             try
             {
-                this.InsertOne(this.Item);
+                var sale = new Sale
+                {
+                    Employee = this.GetEmployee(ObjectId.Parse(this.Item.EmployeeId)),
+                    Customer = this.GetCustomer(ObjectId.Parse(this.Item.CustomerId)),
+                    Note = this.Item.Note,
+                    SaleDate = DateTime.Now,
+                    Status = 0
+                };
+                this.InsertOne(sale);
                 return true;
             }
             catch (Exception)

@@ -15,7 +15,7 @@ namespace Repository
         {
             using(var cmd = new Query())
             {
-                cmd.QueryString = "UPDATE [dbo].[ProductGroup] SET [ProductGroupName] = N'" + Item.ProductGroupName + "' ,[Remark] = '" + Item.Remark+ "' WHERE [ProductGroup].ProductGroupId = " + Item.ProductGroupId;
+                cmd.QueryString = "UPDATE [dbo].[ProductGroup] SET [ProductGroupName] = N'" + Item.ProductGroupName + "' ,[Remark] = '" + Item.Remark+ "' WHERE [ProductGroup].ProductGroupId = " ;
                 return cmd.ExecuteQueryNonReader();
             }
         }

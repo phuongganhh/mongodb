@@ -11,7 +11,7 @@ namespace Business
 {
     public class SaleExecuteSaveBusiness : Connection
     {
-        public Sale Item { get; set; }
+        public SaleDTO Item { get; set; }
         public string EditFlag { get; set; }
         public bool Execute()
         {

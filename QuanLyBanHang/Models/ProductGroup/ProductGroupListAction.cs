@@ -1,4 +1,5 @@
-﻿using Repository;
+﻿using Domain;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +9,11 @@ namespace QuanLyBanHang.Models
 {
     public class ProductGroupListAction
     {
-        public List<dynamic> Execute()
+        public List<ProductGroup> Execute()
         {
             using (var cmd = new ProductGroupSearchRepository())
             {
-                return cmd.Exeucte();
+                return cmd.Execute();
             }
         }
     }

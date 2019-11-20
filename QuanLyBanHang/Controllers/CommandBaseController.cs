@@ -18,6 +18,15 @@ namespace QuanLyBanHang.Controllers
                 Message = message ?? "success"
             };
         }
+        protected static Object Success<T>(List<T> data, string message = null)
+        {
+            return new
+            {
+                Data = data,
+                IsSuccess = true,
+                Message = message ?? "success"
+            };
+        }
         protected ActionResult JsonExpando(object obj)
         {
             return Content(JsonConvert.SerializeObject(obj), "application/json");

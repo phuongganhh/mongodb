@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Models
 {
     public class SaleExecuteDeleteByIdAction
     {
-        public int SaleId { get; set; }
+        public string SaleId { get; set; }
         public bool Execute()
         {
             using(var cmd = new SaleDeleteByIdRepository())

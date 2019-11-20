@@ -1,4 +1,5 @@
-﻿using Repository;
+﻿using Domain;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ namespace QuanLyBanHang.Models
 {
     public class VenderListAction
     {
-        public List<dynamic> Execute()
+        public List<Customer> Execute()
         {
             using(var cmd = new VenderSearchRepository())
             {

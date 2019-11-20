@@ -15,7 +15,7 @@ namespace Repository
         {
             using(var cmd = new Query())
             {
-                cmd.QueryString = "UPDATE [dbo].[Employee] SET [Phone] = '" + Item.Phone + "' ,[Email] = '" + Item.Email + "' ,[Address] = N'" + Item.Address + "' ,[WriteDate] = '' ,[EditDate] = '' ,[WriterId] = '' ,[EditorId] = '' ,[EmployeeName] = N'" + Item.EmployeeName + "' WHERE [Employee].EmployeeId = '" + Item.EmployeeId+"'";
+                cmd.QueryString = "UPDATE [dbo].[Employee] SET [Phone] = '" + Item.Phone + "' ,[Email] = '" + Item.Email + "' ,[Address] = N'" + Item.Address + "' ,[WriteDate] = '' ,[EditDate] = '' ,[WriterId] = '' ,[EditorId] = '' ,[EmployeeName] = N'" + Item.EmployeeName + "' WHERE [Employee].EmployeeId = ''";
                 return cmd.ExecuteQueryNonReader();
             }
         }

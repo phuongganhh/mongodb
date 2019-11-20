@@ -9,7 +9,7 @@ namespace QuanLyBanHang.Models
 {
     public class CustomerExecuteSaveAction
     {
-        public Customer customerList { get; set; }
+        public CustomerDTO customerList { get; set; }
         public string EditFlag { get; set; }
         public bool Execute()
         {

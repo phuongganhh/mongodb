@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -51,10 +52,6 @@
     <ProjectReference Include="..\CustomerRepository\CustomerRepository.csproj">
       <Project>{b5ae7dc9-b209-4063-b67c-c48103973c94}</Project>
       <Name>CustomerRepository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Customer\Customer.csproj">
-      <Project>{66de8e97-1d67-4cc8-b378-02e02871f2cf}</Project>
-      <Name>Customer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

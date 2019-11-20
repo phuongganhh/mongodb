@@ -52,19 +52,22 @@
                                 </tr>
                             </thead>
                             <tbody id="body-table">
-                                @foreach (var item in this.ViewBag.Result)
+                                @foreach (Domain.SaleItem item in this.ViewBag.Result)
                                 {
                                     <tr class="table-flag-blue">
                                         <td><input type="checkbox" /></td>
-                                        <td id="ProductId">@item.ProductId</td>
+                                        <td id="ProductId">@item.Product._id</td>
                                         <td>
-                                            <a href="#" onclick="btnProductNameClick(@item.ProductId);">@item.ProductName</a>
+                                            <a href="#" onclick="btnProductNameClick('@item.Product._id');">@item.Product.ProductName</a>
                                         </td>
                                         <td>@item.Qty</td>
-                                        <td>@item.Price</td>
-                                        <td>@item.Total</td>
+                                        <td>@item.Product.Price</td>
+                                        @{ 
+                                            var total = (item.Qty * item.Product.Price).ToString("#,##0");
+                                        }
+                                        <td>@total</td>
                                         <td>
-                                            <a title="Xóa" href="#" onclick="btnDelete(@item.SaleItemId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
+                                            <a title="Xóa" href="#" onclick="btnDelete('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
                                         </td>
                                       </tr>
                                 }
@@ -115,7 +118,11 @@
                 '/Sale/SaleItemExecuteSave',
                 {
                     CommandAction: {
-                        Item : ViewData.Data
+                        Item: ViewData.Data.map(x => {
+                            x.ProductId = x._id;
+                            x.SaleId = this.getParam("CommandAction.SaleId");
+                            return x;
+                        })
                     }
                 },
                 function (result) {
@@ -142,8 +149,11 @@
                     var flag = false;
                     for (key in ViewData.Data) {
                         var value = ViewData.Data[key];
-                        if (value.ProductId == result.ProductId) {
+                        if (value._id == result._id) {
                             value.Qty++;
+                            if (value.Total == null) {
+                                value.Total = 0;
+                            }
                             value.Total += result.Price;
                             flag = true;
                             break;
@@ -156,8 +166,8 @@
                         ViewData.Data.push(result);
                     }
                     table[0].innerHTML = '';
-                    $.each(ViewData.Data, function (k,v) {
-                        table[0].innerHTML += '<tr class="table-flag-blue"> <td><input type="checkbox"/></td><td>' + v.ProductId + '</td><td> <a href="#">' + v.ProductName + '</a> </td><td>' + v.Qty + '</td><td>' + Format(v.Price) + '</td><td>' + Format(v.Total) + '</td><td> <a title="Xóa" href="#" onclick="" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a> </td></tr>';
+                    $.each(ViewData.Data, function (k, v) {
+                        table[0].innerHTML += '<tr class="table-flag-blue"> <td><input type="checkbox"/></td><td>' + v._id + '</td><td> <a href="#">' + v.ProductName + '</a> </td><td>' + v.Qty + '</td><td>' + Format(v.Price) + '</td><td>' + Format(v.Total) + '</td><td> <a title="Xóa" href="#" onclick="" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a> </td></tr>';
                     });
                 } else {
                     noti(res.Message, 'error');

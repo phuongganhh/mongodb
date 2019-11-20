@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Models
 {
     public class SaleChangeStatusAction
     {
-        public int SaleId { get; set; }
+        public string SaleId { get; set; }
         public bool Execute()
         {
             using(var cmd = new SaleChangeStatusRepository())

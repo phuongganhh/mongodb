@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="MongoDB.Driver, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="MongoDB.Driver.Core, Version=2.9.3.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -57,10 +60,6 @@
     <ProjectReference Include="..\ConnectDataBase\ConnectDataBase.csproj">
       <Project>{fe0ec3d0-443e-4e28-80de-fe771e75a5ec}</Project>
       <Name>ConnectDataBase</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sale\Sale.csproj">
-      <Project>{6894cbcd-94cf-4b92-97d7-3be13976c40d}</Project>
-      <Name>Sale</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

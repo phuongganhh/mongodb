@@ -31,7 +31,7 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="EmployeeId">Mã Nhân viên:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="EmployeeId" value="@this.ViewBag.Result[0].EmployeeId" disabled id="EmployeeId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="EmployeeId" value="@this.ViewBag.Result[0]._id" disabled id="EmployeeId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
@@ -56,12 +56,12 @@
                                 <label class="col-sm-3 col-lg-2 control-label" for="Email">Địa chỉ:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
                                     <input type="text" name="Address" id="Address" value="@this.ViewBag.Result[0].Address" class="form-control" data-rule-required="true" data-rule-minlength="3" />
-                                </div>
+                                </div>  
                             </div>
 
                             <div class="form-group">
                                 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-                                    <input type="button" onclick="onBtnSave(@this.ViewBag.Result[0].EmployeeId);" class="btn btn-primary" value="Xác nhận">
+                                    <input type="button" onclick="onBtnSave('@this.ViewBag.Result[0]._id');" class="btn btn-primary" value="Xác nhận">
                                     <button type="button" onclick="window.close();" class="btn">Hủy bỏ</button>
                                 </div>
                             </div>

@@ -1,4 +1,5 @@
 ﻿using ConnectDataBase;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +8,18 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class EmployeeGetByIdRepository : Connection
+    public class EmployeeGetByIdRepository : MongodbService
     {
-        public int EmployeeId { get; set; }
-        public List<dynamic> Execute()
+        public string EmployeeId { get; set; }
+        public List<Domain.Employee> Execute()
         {
-            using(var cmd =new Query())
+            var collection = this.GetCollection<Domain.Employee>("Employee");
+            if(this.EmployeeId == null)
             {
-                cmd.QueryString = "SELECT * FROM [Employee] WHERE [Employee].EmployeeId=" + EmployeeId;
-                return cmd.ExecuteQuery();
+                return new List<Domain.Employee>();
             }
+            return collection.Find(x => x._id == this.EmployeeId.ToObjectId()).ToList();
+
         }
     } 
 }

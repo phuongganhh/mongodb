@@ -1,5 +1,7 @@
 ﻿using ConnectDataBase;
 using Domain;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,16 +10,42 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class SaleUpdateRepository : Connection
+    public class SaleUpdateRepository : MongodbService
     {
-        public Sale Item { get; set; }
+        public SaleDTO Item { get; set; }
+        private Employee GetEmployee(ObjectId id)
+        {
+            var collection = this.GetCollection<Employee>("Employee");
+            return collection.Find(x => x._id == id).FirstOrDefault();
+        }
+        private Customer GetCustomer(ObjectId id)
+        {
+            var collection = this.GetCollection<Customer>("Customer");
+            return collection.Find(x => x._id == id).FirstOrDefault();
+        }
         public bool Execute()
         {
-            using(var cmd = new Query())
+            var sale = new Sale
             {
-                cmd.QueryString = "UPDATE [dbo].[Sale] SET [CustomerId] = " + Item.CustomerId + " ,[EmployeeId] = " + Item.EmployeeId + ",[SaleDate] = '" + Convert.ToDateTime(Item.SaleDate).ToString("yyyy-MM-dd hh:mm:ss") + "',[Note] = N'"+Item.Note+"' WHERE SaleId=" + Item.SaleId;
-                return cmd.ExecuteQueryNonReader();
-            }
+                Employee = this.GetEmployee(ObjectId.Parse(this.Item.EmployeeId)),
+                Customer = this.GetCustomer(ObjectId.Parse(this.Item.CustomerId)),
+                Note = this.Item.Note,
+                SaleDate = DateTime.Now,
+                Status = this.Item.Status
+            };
+            var collection = this.GetCollection<BsonDocument>("Sale");
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.Item._id);
+            var data = Builders<BsonDocument>.Update.Set("Employee", sale.Employee);
+            var result = collection.UpdateOne(filter, data);
+            data = Builders<BsonDocument>.Update.Set("Customer", sale.Customer);
+            result = collection.UpdateOne(filter, data);
+            data = Builders<BsonDocument>.Update.Set("Note", sale.Note);
+            result = collection.UpdateOne(filter, data);
+            data = Builders<BsonDocument>.Update.Set("SaleDate", sale.SaleDate);
+            result = collection.UpdateOne(filter, data);
+            data = Builders<BsonDocument>.Update.Set("Status", sale.Status);
+            result = collection.UpdateOne(filter, data);
+            return result.ModifiedCount > 0;
         }
     }
 }

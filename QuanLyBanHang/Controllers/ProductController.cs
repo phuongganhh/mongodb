@@ -1,10 +1,8 @@
-﻿using ConnectDataBase;
+﻿using Domain;
 using QuanLyBanHang.Models;
 using Repository;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace QuanLyBanHang.Controllers
@@ -26,7 +24,7 @@ namespace QuanLyBanHang.Controllers
         }
         public ActionResult ProductInput(ProductInputAction CommandAction)
         {
-            this.ViewBag.Result = new List<dynamic>();
+            this.ViewBag.Result = new List<Product>();
             if(CommandAction.ProductId != null)
             {
                 this.ViewBag.Result = CommandAction.Execute();
@@ -34,7 +32,7 @@ namespace QuanLyBanHang.Controllers
             }
             using (var cmd = new ProductGroupSearchRepository())
             {
-                this.ViewBag.Product = cmd.Exeucte();
+                this.ViewBag.Product = cmd.Execute();
             }
             return View();
         }

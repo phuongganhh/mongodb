@@ -5,6 +5,7 @@
 }
 @if (this.ViewBag.Result.Count > 0)
 {
+    Domain.ProductGroup productGroup = this.ViewBag.Result[0]; 
     <div id="main-content">
         <!-- BEGIN Page Title -->
         <div class="page-title">
@@ -31,26 +32,26 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="ProductGroupId">Mã nhóm hàng hóa:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="ProductGroupId" value="@this.ViewBag.Result[0].ProductGroupId" disabled id="ProductGroupId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="ProductGroupId" value="@productGroup._id" disabled id="ProductGroupId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="ProductGroupName">Tên nhóm hàng hóa (*):</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input required type="text" value="@this.ViewBag.Result[0].ProductGroupName" name="ProductGroupName" id="ProductGroupName" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input required type="text" value="@productGroup.ProductGroupName" name="ProductGroupName" id="ProductGroupName" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="Remark">Ghi chú:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
                                     
-                                    <textarea type="text" name="Remark" id="Remark" value="@this.ViewBag.Result[0].Remark" class="form-control" data-rule-required="true" data-rule-minlength="3" rows="5"></textarea>
+                                    <textarea type="text" name="Remark" id="Remark" value="@productGroup.Remark" class="form-control" data-rule-required="true" data-rule-minlength="3" rows="5"></textarea>
                                 </div>
                             </div>
                             
                             <div class="form-group">
                                 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-                                    <input type="button" onclick="onBtnSave(@this.ViewBag.Result[0].ProductGroupId);" class="btn btn-primary" value="Xác nhận">
+                                    <input type="button" onclick="onBtnSave('@productGroup._id');" class="btn btn-primary" value="Xác nhận">
                                     <button type="button" onclick="window.close();" class="btn">Hủy bỏ</button>
                                 </div>
                             </div>

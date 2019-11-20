@@ -50,19 +50,19 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in this.ViewBag.Result)
+                                @foreach (Domain.Customer item in this.ViewBag.Result)
                                 {
                                     <tr class="table-flag-blue">
-                                        <td>@item.CustomerId</td>
+                                        <td>@item._id</td>
                                         <td>@item.CustomerName</td>
                                         <td>@item.Phone</td>
                                         <td>@item.Email</td>
                                         <td>
-                                            <a title="Sửa" href="#" onclick="btnEdit(@item.CustomerId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
-                                            <a title="Xóa" href="#" onclick="btnDelete(@item.CustomerId); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
+                                            <a title="Sửa" href="#" onclick="btnEdit('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
+                                            <a title="Xóa" href="#" onclick="btnDelete('@item._id'); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
                                             @if (this.ViewBag.isPopup)
                                             {
-                                                <a title="Chọn" href="#" onclick="window.opener.AddData(@item.CustomerId,'@item.CustomerName');window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
+                                                <a title="Chọn" href="#" onclick="window.opener.AddData('@item._id','@item.CustomerName');window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
                                             }
                                         </td>
                                     </tr>

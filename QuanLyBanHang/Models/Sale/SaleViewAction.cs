@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Domain;
 using Repository;
 namespace QuanLyBanHang.Models
 {
     public class SaleViewAction
     {
-        public int SaleId { get; set; }
-        public List<dynamic> Execute()
+        public string SaleId { get; set; }
+        public List<SaleItem> Execute()
         {
             using(var cmd = new SaleItemGetByIdRepository())
             {

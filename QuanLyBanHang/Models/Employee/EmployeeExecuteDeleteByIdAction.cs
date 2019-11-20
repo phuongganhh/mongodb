@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Models
 {
     public class EmployeeExecuteDeleteByIdAction : Connection
     {
-        public int EmployeeId { get; set; }
+        public string EmployeeId { get; set; }
         public bool Execute()
         {
             using(var cmd = new EmployeeDeleteByIdRepository())

@@ -9,7 +9,7 @@ namespace QuanLyBanHang.Models
 {
     public class SaleItemExecuteSaveAction
     {
-        public List<SaleItem> Item { get; set; }
+        public List<SaleItemDTO> Item { get; set; }
         public bool Execute()
         {
             using(var cmd = new SaleItemExecuteSaveBusiness())

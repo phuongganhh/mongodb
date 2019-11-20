@@ -8,9 +8,9 @@ namespace QuanLyBanHang.Models
 {
     public class SaleGetByIdAction
     {
-        public int SaleId { get; set; }
+        public string SaleId { get; set; }
         public string EditFlag { get; set; }
-        public List<dynamic> Execute()
+        public List<Domain.Sale> Execute()
         {
             using(var cmd = new SaleGetByIdRepository())
             {

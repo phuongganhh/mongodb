@@ -53,10 +53,6 @@
       <Project>{4e22e500-cab8-4d86-8581-ee272670316e}</Project>
       <Name>ProductRepository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Product\Product.csproj">
-      <Project>{bdfa344a-0e51-48b8-8b6c-b0a59c2f5cbf}</Project>
-      <Name>Product</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

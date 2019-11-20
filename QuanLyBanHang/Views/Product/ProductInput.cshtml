@@ -5,6 +5,7 @@
 }
 @if (this.ViewBag.Result.Count > 0)
 {
+    Domain.Product product = this.ViewBag.Result;
     <div id="main-content">
         <!-- BEGIN Page Title -->
         <div class="page-title">
@@ -31,22 +32,22 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="ProductId">Mã sản phẩm:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="ProductId" value="@this.ViewBag.Result[0].ProductId" disabled id="ProductId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="ProductId" value="@product._id" disabled id="ProductId" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="ProductName">Tên sản phẩm (*):</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input required type="text" value="@this.ViewBag.Result[0].ProductName" name="ProductName" id="ProductName" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input required type="text" value="@product.ProductName" name="ProductName" id="ProductName" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label">Nhóm hàng hóa:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
                                     <div class="input-group">
-                                        <span class="input-group-addon" id="ProductGroupId_span">@this.ViewBag.Result[0].ProductGroupId</span>
+                                        <span class="input-group-addon" id="ProductGroupId_span">@product.ProductGroup._id</span>
                                         <input type="hidden" id="ProductGroupId" name="ProductGroupId"/>
-                                        <input type="text" id="ProductGroupName" value="@this.ViewBag.Result[0].ProductGroupName" placeholder="Tên nhóm hàng hóa" class="form-control">
+                                        <input type="text" id="ProductGroupName" value="@product.ProductGroup.ProductGroupName" placeholder="Tên nhóm hàng hóa" class="form-control">
                                         <span class="input-group-btn">
                                             <button class="btn btn-yellow" onclick="btnSearchProductGroup();"  type="button">Tìm kiếm!</button>
                                         </span>
@@ -56,25 +57,25 @@
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="Phone">Giá:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="number" name="Price" id="Price" value="@this.ViewBag.Result[0].Price" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="number" name="Price" id="Price" value="@product.Price" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="Email">Số lượng:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="number" name="Qty" id="Qty" value="@this.ViewBag.Result[0].Qty" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="number" name="Qty" id="Qty" value="@product.Qty" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-3 col-lg-2 control-label" for="Email">Mã vạch:</label>
                                 <div class="col-sm-6 col-lg-4 controls">
-                                    <input type="text" name="Barcode" id="Barcode" value="@this.ViewBag.Result[0].Barcode" class="form-control" data-rule-required="true" data-rule-minlength="3" />
+                                    <input type="text" name="Barcode" id="Barcode" value="@product.Barcode" class="form-control" data-rule-required="true" data-rule-minlength="3" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2">
-                                    <input type="button" onclick="onBtnSave(@this.ViewBag.Result[0].ProductId);" class="btn btn-primary" value="Xác nhận">
+                                    <input type="button" onclick="onBtnSave('@product._id');" class="btn btn-primary" value="Xác nhận">
                                     <button type="button" onclick="window.close();" class="btn">Hủy bỏ</button>
                                 </div>
                             </div>

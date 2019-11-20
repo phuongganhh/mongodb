@@ -1,4 +1,6 @@
 ﻿using ConnectDataBase;
+using Domain;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +9,14 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class VenderGetByIdRepository : Connection
+    public class VenderGetByIdRepository : MongodbService
     {
-        public int CustomerId { get; set; }
-        public List<dynamic> Execute()
+        public string CustomerId { get; set; }
+        public List<Customer> Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "SELECT * FROM [Customer] WHERE [Customer].CustomerId =" + this.CustomerId + " AND [Customer].isVender = 1";
-                return cmd.ExecuteQuery();
-            }
+            var collection = this.GetCollection<Customer>("Customer");
+            return collection.Find(x => x._id == this.CustomerId.ToObjectId()).ToList();
+            
         }
     }
 }

@@ -7,7 +7,7 @@ namespace QuanLyBanHang.Models
 {
     public class CustomerListAcion
     {
-        public List<dynamic> Execute()
+        public List<Domain.Customer> Execute()
         {
             using(var cmd = new CustomerSearchRepository())
             {

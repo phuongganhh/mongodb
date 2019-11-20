@@ -15,7 +15,7 @@ namespace Repository
         {
             using(var cmd = new Query())
             {
-                cmd.QueryString = "INSERT INTO [dbo].[SaleItem]([SaleItemId] ,[SaleId] ,[ProductId] ,[Qty]) VALUES ((SELECT isnull(MAX(SaleItemId),0) + 1 from SaleItem),"+Item.SaleId+","+Item.ProductId+","+Item.Qty+")";
+                //cmd.QueryString = "INSERT INTO [dbo].[SaleItem]([SaleItemId] ,[SaleId] ,[ProductId] ,[Qty]) VALUES ((SELECT isnull(MAX(SaleItemId),0) + 1 from SaleItem),"+Item.SaleId+","+Item.ProductId+","+Item.Qty+")";
                 return cmd.ExecuteQueryNonReader();
             }
         }

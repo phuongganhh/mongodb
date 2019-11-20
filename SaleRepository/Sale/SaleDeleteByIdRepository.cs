@@ -1,4 +1,5 @@
 ﻿using ConnectDataBase;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,16 +8,14 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class SaleDeleteByIdRepository : Connection
+    public class SaleDeleteByIdRepository : MongodbService
     {
-        public int SaleId { get; set; }
+        public string SaleId { get; set; }
         public bool Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "DELETE FROM [Sale] WHERE [Sale].SaleId=" + this.SaleId;
-                return cmd.ExecuteQueryNonReader();
-            }
+            var collection = this.GetCollection<Domain.Sale>("Sale");
+            var result =  collection.DeleteOne(x => x._id == this.SaleId.ToObjectId());
+            return result.DeletedCount > 0;
         }
     }
 }

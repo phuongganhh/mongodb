@@ -12,9 +12,10 @@ namespace Business
     public class CustomerExecuteSaveBusiness : Connection
     {
         public string EditFlag { get; set; }
-        public Customer Item { get; set; }
+        public CustomerDTO Item { get; set; }
         public bool Execute()
         {
+            this.Item._id = this.Item.CustomerId.ToObjectId();
             if(EditFlag == "M") // modifi - sua 
             {
                 using(var cmd= new CustomerUpdateRepository())

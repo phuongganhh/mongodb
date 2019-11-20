@@ -1,4 +1,6 @@
 ﻿using ConnectDataBase;
+using Domain;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,15 +9,12 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class ProductGroupSearchRepository : Connection
+    public class ProductGroupSearchRepository : MongodbService
     {
-        public List<dynamic> Exeucte()
+        public List<ProductGroup> Execute()
         {
-            using(var cmd = new Query())
-            {
-                cmd.QueryString = "SELECT * FROM [ProductGroup]";
-                return cmd.ExecuteQuery();
-            }
+            var collection = this.GetCollection<ProductGroup>("ProductGroup");
+            return collection.Find(x => true).ToList();
         }
     }
 }

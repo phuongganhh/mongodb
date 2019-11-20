@@ -52,10 +52,6 @@
       <Project>{2ae65dcf-8ad6-47f7-827c-5259ad06f8b7}</Project>
       <Name>EmployeeRepository</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Employee\Employee.csproj">
-      <Project>{6ff1176b-86ac-461c-bb69-f8b95d255d71}</Project>
-      <Name>Employee</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

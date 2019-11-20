@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Domain;
 using Repository;
 namespace QuanLyBanHang.Models
 {
     public class ProductGroupInputAction
     {
-        public int? ProductGroupId { get; set; }
-        public List<dynamic> Execute()
+        public string ProductGroupId { get; set; }
+        public List<ProductGroup> Execute()
         {
             using(var cmd = new ProductGroupGetByIdRepository())
             {
-                cmd.ProductGroupId = this.ProductGroupId.Value;
+                cmd.ProductGroupId = this.ProductGroupId;
                 return cmd.Execute();
             }
         }

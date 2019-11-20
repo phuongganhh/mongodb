@@ -8,7 +8,7 @@ namespace QuanLyBanHang.Models
 {
     public class SaleListAction
     {
-        public List<dynamic> Execute()
+        public List<Domain.Sale> Execute()
         {
             using(var cmd = new SaleSearchRepository())
             {

@@ -50,20 +50,20 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in this.ViewBag.Result)
+                                @foreach (Domain.Employee item in this.ViewBag.Result)
                                 {
                                     <tr class="table-flag-blue">
-                                        <td>@item.EmployeeId</td>
+                                        <td>@item._id</td>
                                         <td>@item.EmployeeName</td>
                                         <td>@item.Phone</td>
                                         <td>@item.Email</td>
                                         <td>@item.Address</td>
                                         <td>
-                                            <a title="Sửa" href="#" onclick="btnEdit(@item.EmployeeId);" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
-                                            <a title="Xóa" href="#" onclick="btnDelete(@item.EmployeeId); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
+                                            <a title="Sửa" href="#" onclick="btnEdit('@item._id');" type="button" class="btn btn-default btn-sm"><span class="fa fa-pencil-square-o"></span></a>
+                                            <a title="Xóa" href="#" onclick="btnDelete('@item._id'); return false;" type="button" class="btn btn-default btn-sm"><span class="fa fa-trash-o"></span></a>
                                             @if (this.ViewBag.isPopup)
                                             {
-                                                <a title="Chọn" href="#" onclick="window.opener.AddDataEmployee(@item.EmployeeId,'@item.EmployeeName');window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
+                                                <a title="Chọn" href="#" onclick="window.opener.AddDataEmployee('@item._id','@item.EmployeeName');window.close();" type="button" class="btn btn-default btn-sm"><span class="fa fa-check"></span></a>
                                             }
                                         </td>
                                     </tr>

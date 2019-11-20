@@ -1,4 +1,5 @@
-﻿using QuanLyBanHang.Models;
+﻿using Domain;
+using QuanLyBanHang.Models;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace QuanLyBanHang.Controllers
         }
         public ActionResult VenderInput(VenderInputAction CommandAction)
         {
-            this.ViewBag.Result = new List<dynamic>();
+            this.ViewBag.Result = new List<Customer>();
             if(CommandAction.CustomerId != null)
             {
                 this.ViewBag.Result = CommandAction.Execute();
