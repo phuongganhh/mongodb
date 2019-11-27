@@ -15,7 +15,7 @@ namespace Repository
         public bool Execute()
         {
             var collection = this.GetCollection<BsonDocument>("Sale");
-            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.SaleId);
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.SaleId.ToObjectId());
             var update = Builders<BsonDocument>.Update.Set("Status", 1);
             var result = collection.UpdateOne(filter, update);
             return result.ModifiedCount > 0;

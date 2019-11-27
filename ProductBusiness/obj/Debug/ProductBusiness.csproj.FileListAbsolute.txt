@@ -44,3 +44,23 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\D
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductBusiness\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductBusiness.dll.config
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductBusiness.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductBusiness.pdb
+C:\Project\mongodb\ProductBusiness\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductRepository.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\MongoDB.Bson.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\MongoDB.Driver.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\MongoDB.Driver.Core.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\ProductBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\ProductBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductRepository.pdb
+C:\Project\mongodb\ProductBusiness\bin\Debug\ProductRepository.dll.config
+C:\Project\mongodb\ProductBusiness\bin\Debug\MongoDB.Bson.xml
+C:\Project\mongodb\ProductBusiness\bin\Debug\MongoDB.Driver.xml
+C:\Project\mongodb\ProductBusiness\obj\Debug\ProductBusiness.csprojAssemblyReference.cache
+C:\Project\mongodb\ProductBusiness\obj\Debug\ProductBusiness.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\ProductBusiness\obj\Debug\ProductBusiness.csproj.CopyComplete
+C:\Project\mongodb\ProductBusiness\obj\Debug\ProductBusiness.dll
+C:\Project\mongodb\ProductBusiness\obj\Debug\ProductBusiness.pdb

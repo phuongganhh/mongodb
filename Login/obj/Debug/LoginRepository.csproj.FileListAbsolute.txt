@@ -51,3 +51,17 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\DnsCl
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\Login\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\Login\bin\Debug\Login.dll.config
+C:\Project\mongodb\Login\bin\Debug\Login.dll
+C:\Project\mongodb\Login\bin\Debug\Login.pdb
+C:\Project\mongodb\Login\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\Login\bin\Debug\MongoDB.Bson.dll
+C:\Project\mongodb\Login\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\Login\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\Login\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\Login\bin\Debug\MongoDB.Bson.xml
+C:\Project\mongodb\Login\obj\Debug\LoginRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\Login\obj\Debug\LoginRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\Login\obj\Debug\LoginRepository.csproj.CopyComplete
+C:\Project\mongodb\Login\obj\Debug\Login.dll
+C:\Project\mongodb\Login\obj\Debug\Login.pdb

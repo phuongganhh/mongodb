@@ -28,3 +28,15 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleRepository\bin\De
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleRepository\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleRepository\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleRepository\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\SaleRepository\bin\Debug\SaleRepository.dll.config
+C:\Project\mongodb\SaleRepository\bin\Debug\SaleRepository.dll
+C:\Project\mongodb\SaleRepository\bin\Debug\SaleRepository.pdb
+C:\Project\mongodb\SaleRepository\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\SaleRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\SaleRepository\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\SaleRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\SaleRepository\obj\Debug\SaleRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\SaleRepository\obj\Debug\SaleRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\SaleRepository\obj\Debug\SaleRepository.csproj.CopyComplete
+C:\Project\mongodb\SaleRepository\obj\Debug\SaleRepository.dll
+C:\Project\mongodb\SaleRepository\obj\Debug\SaleRepository.pdb

@@ -39,3 +39,15 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\ProductRepository\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\ProductRepository\bin\Debug\ProductRepository.dll.config
+C:\Project\mongodb\ProductRepository\bin\Debug\ProductRepository.dll
+C:\Project\mongodb\ProductRepository\bin\Debug\ProductRepository.pdb
+C:\Project\mongodb\ProductRepository\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\ProductRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\ProductRepository\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\ProductRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\ProductRepository\obj\Debug\ProductRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\ProductRepository\obj\Debug\ProductRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\ProductRepository\obj\Debug\ProductRepository.csproj.CopyComplete
+C:\Project\mongodb\ProductRepository\obj\Debug\ProductRepository.dll
+C:\Project\mongodb\ProductRepository\obj\Debug\ProductRepository.pdb

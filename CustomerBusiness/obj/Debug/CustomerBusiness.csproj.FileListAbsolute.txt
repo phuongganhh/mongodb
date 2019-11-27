@@ -57,3 +57,21 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerBusiness\bin\
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerBusiness\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerBusiness\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerBusiness\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerBusiness.dll.config
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerBusiness.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerBusiness.pdb
+C:\Project\mongodb\CustomerBusiness\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerRepository.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\MongoDB.Driver.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\MongoDB.Driver.Core.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\CustomerBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\CustomerBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerRepository.pdb
+C:\Project\mongodb\CustomerBusiness\bin\Debug\CustomerRepository.dll.config
+C:\Project\mongodb\CustomerBusiness\bin\Debug\MongoDB.Driver.xml
+C:\Project\mongodb\CustomerBusiness\obj\Debug\CustomerBusiness.csprojAssemblyReference.cache
+C:\Project\mongodb\CustomerBusiness\obj\Debug\CustomerBusiness.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\CustomerBusiness\obj\Debug\CustomerBusiness.csproj.CopyComplete
+C:\Project\mongodb\CustomerBusiness\obj\Debug\CustomerBusiness.dll
+C:\Project\mongodb\CustomerBusiness\obj\Debug\CustomerBusiness.pdb

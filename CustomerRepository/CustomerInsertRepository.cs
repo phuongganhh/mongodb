@@ -1,5 +1,6 @@
 ﻿using ConnectDataBase;
 using Domain;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace CustomerRepository
             try
             {
                 this.InsertOne(this.Item);
-                return this.Item._id != null;
+                return this.Item._id != ObjectId.Empty;
             }
             catch (Exception)
             {

@@ -15,10 +15,10 @@ namespace Business
         public CustomerDTO Item { get; set; }
         public bool Execute()
         {
-            this.Item._id = this.Item.CustomerId.ToObjectId();
             if(EditFlag == "M") // modifi - sua 
             {
-                using(var cmd= new CustomerUpdateRepository())
+                this.Item._id = this.Item.CustomerId.ToObjectId();
+                using (var cmd= new CustomerUpdateRepository())
                 {
                     cmd.Item = this.Item;
                     return cmd.Execute();

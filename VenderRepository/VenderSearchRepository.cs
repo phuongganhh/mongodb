@@ -11,9 +11,9 @@ namespace Repository
 {
     public class VenderSearchRepository : MongodbService
     {
-        public List<Customer> Execute()
+        public List<CustomerDTO> Execute()
         {
-            var collection = this.GetCollection<Customer>("Customer");
+            var collection = this.GetCollection<CustomerDTO>("Customer");
             return collection.Find(x => x.isVender).ToList();
         }
     }

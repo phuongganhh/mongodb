@@ -18,9 +18,9 @@ namespace Repository
             var collection = this.GetCollection<Employee>("Employee");
             return collection.Find(x => x._id == id).FirstOrDefault();
         }
-        private Customer GetCustomer(ObjectId id)
+        private CustomerDTO GetCustomer(ObjectId id)
         {
-            var collection = this.GetCollection<Customer>("Customer");
+            var collection = this.GetCollection<CustomerDTO>("Customer");
             return collection.Find(x => x._id == id).FirstOrDefault();
         }
         public bool Execute()

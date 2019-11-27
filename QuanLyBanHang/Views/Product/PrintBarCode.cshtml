@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
 
-        @foreach (var item in this.ViewBag.Result)
+        @foreach (Domain.Product item in this.ViewBag.Result)
         {
             <div class="col-md-3" style="padding-bottom:20px;">
                 <table style="width:100%">
@@ -16,7 +16,7 @@
                         <th class="text-center">@item.ProductName</th>
                     </tr>
                     <tr>
-                        <td><svg id="barcode_@item.ProductId"></svg></td>
+                        <td><svg id="barcode_@item._id"></svg></td>
                     </tr>
                 </table>
             </div>

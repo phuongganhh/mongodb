@@ -31,3 +31,18 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleBusiness\bin\Debu
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleBusiness\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleBusiness\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\SaleBusiness\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleBusiness.dll.config
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleBusiness.dll
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleBusiness.pdb
+C:\Project\mongodb\SaleBusiness\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleRepository.dll
+C:\Project\mongodb\SaleBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\SaleBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\SaleBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleRepository.pdb
+C:\Project\mongodb\SaleBusiness\bin\Debug\SaleRepository.dll.config
+C:\Project\mongodb\SaleBusiness\obj\Debug\SaleBusiness.csprojAssemblyReference.cache
+C:\Project\mongodb\SaleBusiness\obj\Debug\SaleBusiness.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\SaleBusiness\obj\Debug\SaleBusiness.csproj.CopyComplete
+C:\Project\mongodb\SaleBusiness\obj\Debug\SaleBusiness.dll
+C:\Project\mongodb\SaleBusiness\obj\Debug\SaleBusiness.pdb

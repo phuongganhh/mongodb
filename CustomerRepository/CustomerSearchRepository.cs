@@ -14,10 +14,18 @@ namespace Repository
 {
     public class CustomerSearchRepository : MongodbService
     {
-        public List<Domain.Customer> Execute()
+        public List<Domain.CustomerDTO> Execute()
         {
-            var collection = this.GetCollection<Domain.Customer>("Customer");
-            return collection.Find(x => x.isCustomer).ToList();
+            try
+            {
+                var collection = this.GetCollection<Domain.CustomerDTO>("Customer");
+                return collection.Find(x => x.isCustomer).ToList();
+            }
+            catch (Exception)
+            {
+                return new List<CustomerDTO>();
+            }
+            
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Domain
     {
         public ObjectId _id { get; set; }
         public Employee Employee { get; set; }
-        public Customer Customer { get; set; }
+        public CustomerDTO Customer { get; set; }
         public DateTime SaleDate { get; set; }
         public int Status { get; set; }
         public string Note { get; set; }

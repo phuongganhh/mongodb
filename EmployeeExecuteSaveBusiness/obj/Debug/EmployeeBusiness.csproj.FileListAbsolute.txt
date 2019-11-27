@@ -58,3 +58,23 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBu
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeExecuteSaveBusiness\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll.config
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeExecuteSaveBusiness.pdb
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Bson.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.Core.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.pdb
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\EmployeeRepository.dll.config
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Bson.xml
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\bin\Debug\MongoDB.Driver.xml
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csprojAssemblyReference.cache
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeBusiness.csproj.CopyComplete
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.dll
+C:\Project\mongodb\EmployeeExecuteSaveBusiness\obj\Debug\EmployeeExecuteSaveBusiness.pdb

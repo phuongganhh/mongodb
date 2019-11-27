@@ -9,7 +9,7 @@ namespace QuanLyBanHang.Models
 {
     public class VenderListAction
     {
-        public List<Customer> Execute()
+        public List<CustomerDTO> Execute()
         {
             using(var cmd = new VenderSearchRepository())
             {

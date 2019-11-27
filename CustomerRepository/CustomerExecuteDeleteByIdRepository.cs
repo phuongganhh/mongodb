@@ -15,7 +15,7 @@ namespace Repository
         public bool Execute()
         {
             var collection = this.GetCollection<BsonDocument>("Customer");
-            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.CustomerId);
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", this.CustomerId.ToObjectId());
             var result =  collection.DeleteOne(filter);
             return result.DeletedCount > 0;
         }

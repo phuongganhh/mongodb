@@ -50,3 +50,15 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerRepository\bi
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerRepository\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerRepository\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\CustomerRepository\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\CustomerRepository\bin\Debug\CustomerRepository.dll.config
+C:\Project\mongodb\CustomerRepository\bin\Debug\CustomerRepository.dll
+C:\Project\mongodb\CustomerRepository\bin\Debug\CustomerRepository.pdb
+C:\Project\mongodb\CustomerRepository\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\CustomerRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\CustomerRepository\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\CustomerRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\CustomerRepository\obj\Debug\CustomerRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\CustomerRepository\obj\Debug\CustomerRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\CustomerRepository\obj\Debug\CustomerRepository.csproj.CopyComplete
+C:\Project\mongodb\CustomerRepository\obj\Debug\CustomerRepository.dll
+C:\Project\mongodb\CustomerRepository\obj\Debug\CustomerRepository.pdb

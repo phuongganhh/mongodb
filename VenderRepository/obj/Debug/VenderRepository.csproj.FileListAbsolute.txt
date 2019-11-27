@@ -34,3 +34,15 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\VenderRepository\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\VenderRepository\bin\Debug\VenderRepository.dll.config
+C:\Project\mongodb\VenderRepository\bin\Debug\VenderRepository.dll
+C:\Project\mongodb\VenderRepository\bin\Debug\VenderRepository.pdb
+C:\Project\mongodb\VenderRepository\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\VenderRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\VenderRepository\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\VenderRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\VenderRepository\obj\Debug\VenderRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\VenderRepository\obj\Debug\VenderRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\VenderRepository\obj\Debug\VenderRepository.csproj.CopyComplete
+C:\Project\mongodb\VenderRepository\obj\Debug\VenderRepository.dll
+C:\Project\mongodb\VenderRepository\obj\Debug\VenderRepository.pdb

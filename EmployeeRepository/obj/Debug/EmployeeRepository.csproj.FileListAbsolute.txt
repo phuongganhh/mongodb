@@ -51,3 +51,15 @@ C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bi
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Snappy.NET.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\System.Buffers.xml
 C:\Users\nguye\Downloads\Telegram Desktop\WebQuanLyBanHang\EmployeeRepository\bin\Debug\Crc32C.NET.xml
+C:\Project\mongodb\EmployeeRepository\bin\Debug\EmployeeRepository.dll.config
+C:\Project\mongodb\EmployeeRepository\bin\Debug\EmployeeRepository.dll
+C:\Project\mongodb\EmployeeRepository\bin\Debug\EmployeeRepository.pdb
+C:\Project\mongodb\EmployeeRepository\bin\Debug\ConnectDataBase.dll
+C:\Project\mongodb\EmployeeRepository\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Project\mongodb\EmployeeRepository\bin\Debug\ConnectDataBase.pdb
+C:\Project\mongodb\EmployeeRepository\bin\Debug\ConnectDataBase.dll.config
+C:\Project\mongodb\EmployeeRepository\obj\Debug\EmployeeRepository.csprojAssemblyReference.cache
+C:\Project\mongodb\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CoreCompileInputs.cache
+C:\Project\mongodb\EmployeeRepository\obj\Debug\EmployeeRepository.csproj.CopyComplete
+C:\Project\mongodb\EmployeeRepository\obj\Debug\EmployeeRepository.dll
+C:\Project\mongodb\EmployeeRepository\obj\Debug\EmployeeRepository.pdb
